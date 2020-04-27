@@ -22,6 +22,22 @@ You just need to clone the project locally. In the case of a MacOS device, save 
 
 More information on XAMPP: https://www.apachefriends.org/es/index.html
 
+The page is a static HTML page. To run it, just launch a **web server**, e.g.:
+ 
+ ```
+ cd farmoquing
+ http-server
+ ```
+ 
+ You can launch it using reload, e.g.:
+ 
+ ```
+ cd jftorresp.github.io
+ reload -b
+ ```
+This would automatically launch a server on port 8080 in localhost
+
+
 # Overview 🌄
 
 ![Farmoquing Overview](https://i.imgur.com/E9QxfVb.gif)
