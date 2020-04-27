@@ -1,7 +1,7 @@
 ﻿<?php
 
 try{
-    $conexion= new PDO('mysql:host=localhost;dbname=farmoq_noticias', 'farmoq', 'VgoKJsc!84Q5tsq');
+	// connection to DB 
     }
     catch(PDOException $e){
         echo "Error" . $e->getMessage();
